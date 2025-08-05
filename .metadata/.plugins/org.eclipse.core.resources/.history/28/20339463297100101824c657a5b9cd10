@@ -1,0 +1,12 @@
+package com.budgetingapp.userservice.service;
+
+import com.budgetingapp.userservice.dto.ResponseDto;
+import com.budgetingapp.userservice.dto.UserRegistrationDto;
+import com.budgetingapp.userservice.entities.User;
+
+public interface UserService {
+
+	public ResponseDto<?> checkEmailExist(String email);
+	public ResponseDto<User> registerUser(UserRegistrationDto register);
+	
+}

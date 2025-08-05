@@ -1,0 +1,5 @@
+package com.budgetingapp.userservice.serviceimpl;
+
+public class UserServiceImpl {
+
+}

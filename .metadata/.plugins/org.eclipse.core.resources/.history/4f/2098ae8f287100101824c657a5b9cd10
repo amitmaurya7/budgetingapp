@@ -1,0 +1,5 @@
+package com.budgetingapp.userservice.exception;
+
+public class GlobalExceptionHandler {
+
+}

@@ -1,0 +1,22 @@
+package com.budgetingapp.userservice.serviceimpl;
+
+import com.budgetingapp.userservice.dto.ResponseDto;
+import com.budgetingapp.userservice.dto.UserRegistrationDto;
+import com.budgetingapp.userservice.entities.User;
+import com.budgetingapp.userservice.service.UserService;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public ResponseDto<Boolean> checkEmailExist(String email) {
+		
+		return null;
+	}
+
+	@Override
+	public ResponseDto<User> registerUser(UserRegistrationDto register) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

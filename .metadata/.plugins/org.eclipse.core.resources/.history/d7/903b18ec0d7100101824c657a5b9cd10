@@ -1,0 +1,5 @@
+package com.budgetingapp.userservice.entities;
+
+public class User {
+
+}

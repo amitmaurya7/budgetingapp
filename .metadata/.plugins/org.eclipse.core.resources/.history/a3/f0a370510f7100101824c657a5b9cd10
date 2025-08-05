@@ -1,0 +1,5 @@
+package com.budgetingapp.userservice.service;
+
+public interface UserService {
+
+}
