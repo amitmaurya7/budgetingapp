@@ -8,5 +8,6 @@ public interface UserService {
 
 	public ResponseDto<Boolean> checkEmailExist(String email);
 	public ResponseDto<User> registerUser(UserRegistrationDto register);
+	public User getUserByEmail(String email);
 	
 }

@@ -34,4 +34,10 @@ public class Controller {
 		ResponseDto<User> response = userService.registerUser(register);
 		return ResponseEntity.ok(response);
 	}
+	
+	@GetMapping("/{email}")
+	public ResponseEntity<User> getUserByEmail(@PathVariable String email){
+		User user = userService.getUserByEmail(email);
+		return ResponseEntity.ok(user);
+	}
 }

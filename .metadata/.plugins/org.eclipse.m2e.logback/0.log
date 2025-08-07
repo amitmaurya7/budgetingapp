@@ -1538,3 +1538,340 @@ org.eclipse.core.runtime.CoreException: Launch configuration UserServiceApplicat
 2025-08-05 22:43:45,434 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-08-05 22:43:45,448 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-08-05 22:43:45,457 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\auth-service\src\test\resources
+2025-08-06 13:08:50,035 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-08-06 13:10:01,819 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-parent/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:01,852 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-parent/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:02,234 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:02,245 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-dependencies/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:04,359 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-security/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:04,370 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-security/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:04,772 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:04,781 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:05,139 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:05,152 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:05,576 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:05,590 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-autoconfigure/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:05,969 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:05,981 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-logging/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:06,639 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-validation/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:06,651 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-validation/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:07,176 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:07,189 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-web/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:07,546 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:07,561 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-json/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:07,969 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:07,977 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-tomcat/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:08,357 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-test/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:08,368 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-test/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:08,738 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-test/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:08,749 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-test/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:09,133 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-test-autoconfigure/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:09,143 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-test-autoconfigure/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:10,621 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:10,629 [Worker-1: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:10:11,418 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:10:11,463 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:10:11,474 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\auth-service\src\test\resources
+2025-08-06 13:15:50,510 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bookcollection:book-service:0.0.1-SNAPSHOT @ C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\pom.xml.
+2025-08-06 13:15:51,834 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:15:51,849 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-data-jpa/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:15:52,381 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:15:52,399 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-starter-jdbc/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:15:53,337 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-devtools/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:15:53,345 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-devtools/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-06 13:15:55,302 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /book-service/src/main/java
+2025-08-06 13:15:55,306 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /book-service/src/main/resources
+2025-08-06 13:15:55,495 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /book-service/src/main/resources
+2025-08-06 13:15:55,515 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /book-service/src/test/java
+2025-08-06 13:15:55,517 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /book-service/src/test/resources
+2025-08-06 13:15:56,303 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2025-08-06 13:15:57,041 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:15:57,070 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:15:57,078 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:19:02,535 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:19:02,556 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:19:02,563 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:23:07,706 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:23:07,717 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:23:07,723 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:23:26,153 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:23:26,172 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:23:26,185 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:24:37,049 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:24:37,057 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:24:37,063 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:25:00,674 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:25:00,688 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:25:00,698 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:26:10,313 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:26:10,330 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:26:10,341 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:27:00,101 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:27:00,113 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:27:00,121 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:27:56,097 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [364])
+2025-08-06 13:27:56,100 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2025-08-06 13:27:56,101 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2025-08-06 13:27:56,101 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2025-08-06 13:27:56,101 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2025-08-06 13:27:56,101 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2025-08-06 13:27:56,102 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2025-08-06 13:27:56,102 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2025-08-06 13:27:56,102 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2025-08-06 13:27:56,102 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2025-08-06 13:27:56,103 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2025-08-06 13:27:56,103 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2025-08-06 13:27:56,103 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2025-08-06 13:27:56,103 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2025-08-06 13:27:56,103 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2025-08-06 13:27:56,103 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2025-08-06 13:27:56,103 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2025-08-06 13:27:56,103 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2025-08-06 13:27:56,103 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2025-08-06 13:27:56,103 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2025-08-06 13:27:56,103 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2025-08-06 13:27:56,103 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2025-08-06 13:27:56,103 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2025-08-06 13:27:56,103 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2025-08-06 13:27:56,103 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2025-08-06 13:27:56,103 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2025-08-06 13:27:56,105 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2025-08-06 13:27:56,105 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2025-08-06 13:27:56,105 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2025-08-06 13:27:56,105 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2025-08-06 13:27:56,105 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-08-06 13:27:56,105 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-08-06 13:27:56,105 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2025-08-06 13:27:56,105 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2025-08-06 13:27:56,105 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2025-08-06 13:27:56,105 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2025-08-06 13:27:56,105 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2025-08-06 13:27:56,106 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2025-08-06 13:27:56,106 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2025-08-06 13:27:56,106 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2025-08-06 13:27:56,106 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2025-08-06 13:27:56,106 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2025-08-06 13:27:56,106 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2025-08-06 13:27:56,106 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2025-08-06 13:27:56,106 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2025-08-06 13:27:56,107 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.1.jre [29])
+2025-08-06 13:27:56,107 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\com.google.guava_33.3.1.jre.jar
+2025-08-06 13:27:56,107 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [615])
+2025-08-06 13:27:56,107 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\slf4j.api_2.0.16.jar
+2025-08-06 13:27:56,107 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [45])
+2025-08-06 13:27:56,107 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-08-06 13:27:56,107 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [41])
+2025-08-06 13:27:56,107 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\jakarta.annotation-api_1.3.5.jar
+2025-08-06 13:27:56,107 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [78])
+2025-08-06 13:27:56,108 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.apache.commons.cli_1.9.0.jar
+2025-08-06 13:27:56,108 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [81])
+2025-08-06 13:27:56,108 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-08-06 13:27:56,108 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [30])
+2025-08-06 13:27:56,108 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.28.1.RELEASE\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-08-06 13:27:56,113 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service":
+2025-08-06 13:27:56,123 [Worker-19: Launching Executing install in C__Users_amitk_OneDrive_Desktop_budgetingapp_book-service] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always install
+2025-08-06 13:29:04,044 [Worker-4: Launching BookServiceApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.bookcollection:book-service:0.0.1-SNAPSHOT @ C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\pom.xml.
+2025-08-06 13:29:06,180 [Worker-4: Launching BookServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:29:06,186 [Worker-4: Launching BookServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:29:06,198 [Worker-4: Launching BookServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:30:07,095 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:30:07,139 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:30:07,146 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:30:30,783 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:30:30,793 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:30:30,801 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:33:05,211 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:33:05,226 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:33:05,231 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:33:28,876 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:33:28,890 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:33:28,899 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:33:49,429 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:33:49,441 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:33:49,448 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:34:26,979 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:34:26,989 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:34:26,998 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:36:06,707 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:36:06,717 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:36:06,723 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:39:22,787 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:39:22,861 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:39:22,867 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:40:46,663 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:40:46,687 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:40:46,693 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:41:16,461 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:41:16,496 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:41:16,506 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:43:44,760 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:43:44,781 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:43:44,790 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:44:37,649 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:44:37,662 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:44:37,669 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:45:02,846 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:45:02,866 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:45:02,870 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:45:40,435 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:45:40,444 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:45:40,450 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:47:18,563 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:47:18,576 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:47:18,582 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:49:22,341 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:49:22,352 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:49:22,357 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:50:07,571 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:50:07,583 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:50:07,588 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:54:16,119 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:54:16,131 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:54:16,136 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 13:56:10,086 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 13:56:10,097 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 13:56:10,101 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 14:03:26,007 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 14:03:26,022 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 14:03:26,026 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 14:08:53,682 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 14:08:53,697 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 14:08:53,702 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 14:09:32,702 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 14:09:32,712 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 14:09:32,716 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 14:10:41,946 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 14:10:41,963 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 14:10:41,967 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 14:12:52,151 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 14:12:52,161 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 14:12:52,167 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 15:39:35,692 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-06 15:39:35,718 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-06 15:39:35,724 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\book-service\src\test\resources
+2025-08-06 15:40:48,833 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration BookServiceApplication references non-existing project book-service.
+org.eclipse.core.runtime.CoreException: Launch configuration BookServiceApplication references non-existing project book-service.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-08-06 15:40:48,893 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration BookServiceApplication references non-existing project book-service.
+org.eclipse.core.runtime.CoreException: Launch configuration BookServiceApplication references non-existing project book-service.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-08-06 15:40:48,907 [Worker-16: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration BookServiceApplication references non-existing project book-service.
+org.eclipse.core.runtime.CoreException: Launch configuration BookServiceApplication references non-existing project book-service.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1747)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2010)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:892)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1042)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-08-07 19:30:28,216 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:30:28,512 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:30:28,523 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\auth-service\src\test\resources
+2025-08-07 19:31:26,198 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:31:26,241 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:31:26,246 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\auth-service\src\test\resources
+2025-08-07 19:37:01,579 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:37:01,590 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:37:01,595 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\auth-service\src\test\resources
+2025-08-07 19:39:31,331 [Worker-43: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-07 19:39:31,342 [Worker-43: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/3.5.5-SNAPSHOT/maven-metadata.xml
+2025-08-07 19:39:31,702 [Worker-43: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/3.5.5-SNAPSHOT/spring-boot-maven-plugin-3.5.5-20250807.133043-24.pom
+2025-08-07 19:39:31,718 [Worker-43: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/3.5.5-SNAPSHOT/spring-boot-maven-plugin-3.5.5-20250807.133043-24.pom
+2025-08-07 19:39:32,084 [Worker-43: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/3.5.5-SNAPSHOT/spring-boot-maven-plugin-3.5.5-20250807.133043-24.jar
+2025-08-07 19:39:33,124 [Worker-43: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/org/springframework/boot/spring-boot-maven-plugin/3.5.5-SNAPSHOT/spring-boot-maven-plugin-3.5.5-20250807.133043-24.jar
+2025-08-07 19:39:33,630 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:39:33,679 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:39:33,691 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\user-service\src\test\resources
+2025-08-07 19:39:34,033 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:39:34,044 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:39:34,048 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\user-service\src\test\resources
+2025-08-07 19:42:05,921 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:42:05,931 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:42:05,935 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\user-service\src\test\resources
+2025-08-07 19:45:20,680 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:45:20,690 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:45:20,694 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\user-service\src\test\resources
+2025-08-07 19:46:20,035 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:46:20,050 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:46:20,054 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\user-service\src\test\resources
+2025-08-07 19:46:43,567 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:46:43,581 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:46:43,586 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\user-service\src\test\resources
+2025-08-07 19:49:49,222 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:49:49,232 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:49:49,238 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\user-service\src\test\resources
+2025-08-07 19:53:26,513 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:53:26,521 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:53:26,526 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\user-service\src\test\resources
+2025-08-07 19:57:23,232 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 19:57:23,243 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 19:57:23,247 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\user-service\src\test\resources
+2025-08-07 20:03:05,431 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 20:03:05,442 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 20:03:05,448 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\auth-service\src\test\resources
+2025-08-07 20:04:28,593 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 20:04:28,607 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 20:04:28,611 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\auth-service\src\test\resources
+2025-08-07 20:06:30,185 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 20:06:30,193 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 20:06:30,197 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\auth-service\src\test\resources
+2025-08-07 20:14:45,144 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 20:14:45,154 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 20:14:45,158 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\auth-service\src\test\resources
+2025-08-07 20:24:37,039 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-07 20:24:37,049 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-07 20:24:37,056 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\amitk\OneDrive\Desktop\budgetingapp\auth-service\src\test\resources

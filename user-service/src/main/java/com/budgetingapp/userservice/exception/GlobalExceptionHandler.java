@@ -30,4 +30,9 @@ public class GlobalExceptionHandler {
 				.build();
 		return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
 	}
+	
+	@ExceptionHandler(UserNotExistException.class)
+	public ResponseEntity<String> handleUserNotExistException(UserNotExistException ex){
+		return ResponseEntity.ok(ex.getMessage());
+	}
 }

@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import com.budgetingapp.userservice.dto.ResponseDto;
 import com.budgetingapp.userservice.dto.UserRegistrationDto;
 import com.budgetingapp.userservice.entities.User;
+import com.budgetingapp.userservice.exception.UserNotExistException;
 import com.budgetingapp.userservice.repositories.UserRepository;
 import com.budgetingapp.userservice.service.UserService;
 
@@ -33,6 +34,12 @@ public class UserServiceImpl implements UserService {
 		user.setPassword(register.getPassword());
 		userRepository.save(user);
 		return ResponseDto.response("User Register successfully", user, HttpStatus.CREATED.value());
+	}
+
+	@Override
+	public User getUserByEmail(String email) {
+		User user = userRepository.findByEmail(email).orElseThrow(()->  new UserNotExistException("User with email:"+ email+" is not exist"));
+		return user;
 	}
 
 }
