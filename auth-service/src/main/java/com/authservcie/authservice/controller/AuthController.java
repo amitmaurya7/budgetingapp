@@ -46,7 +46,7 @@ public class AuthController {
     		return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Invalid credentials");
     	}
     	String token = jwtUtil.generateToken(loginDto.getEmail());
-    	return ResponseEntity.ok(Map.of("tokena :", token));
+    	return ResponseEntity.ok(Map.of("tokena ", token));
     }
 }
 

@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 import com.authservcie.authservice.communication.UserClient;
 import com.authservcie.authservice.dto.RegisterRequestDto;
+import com.authservcie.authservice.exceptionhandler.EmailAlreadyExistException;
 import com.authservcie.authservice.service.AuthService;
 import com.authservcie.authservice.util.JwtUtil;
 
@@ -24,7 +25,7 @@ public class AuthServiceImpl implements AuthService {
 	@Override
 	public String register(RegisterRequestDto register) {
 		 if (userClient.checkIfEmailExists(register.getEmail())) {
-	            throw new RuntimeException("Email already registered");
+	          throw new EmailAlreadyExistException("Email is already exist.");
 	        }
 
 	        String hashedPassword = passwordEncoder.encode(register.getPassword());

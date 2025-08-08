@@ -2,6 +2,8 @@ package com.budgetingapp.userservice.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.oauth2.jwt.Jwt;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -9,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.budgetingapp.userservice.dto.LinkRequestDto;
 import com.budgetingapp.userservice.dto.ResponseDto;
 import com.budgetingapp.userservice.dto.UserRegistrationDto;
 import com.budgetingapp.userservice.entities.User;
@@ -39,5 +42,11 @@ public class Controller {
 	public ResponseEntity<User> getUserByEmail(@PathVariable String email){
 		User user = userService.getUserByEmail(email);
 		return ResponseEntity.ok(user);
+	}
+	
+	@PostMapping("/linkaccount")
+	public ResponseEntity<String> linkBankAccount(@RequestBody LinkRequestDto linkRequestDto, @AuthenticationPrincipal Jwt principal ){
+		String message = userService.linkBankAccount(linkRequestDto, principal);
+		return ResponseEntity.ok(message);
 	}
 }
