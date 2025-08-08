@@ -1,7 +1,0 @@
-package com.budgetingapp.userservice.service;
-
-public interface UserService {
-
-	public boolean checkEmailExist(String email);
-	
-}

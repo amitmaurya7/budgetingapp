@@ -1,5 +1,0 @@
-package com.budgetingapp.userservice.repositories;
-
-public interface UserRepository {
-
-}
