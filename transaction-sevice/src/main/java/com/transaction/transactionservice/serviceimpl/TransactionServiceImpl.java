@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import com.transaction.transactionservice.dto.TransactionDto;
 import com.transaction.transactionservice.dto.TransactionKafka;
 import com.transaction.transactionservice.entities.Transactions;
+import com.transaction.transactionservice.exception.ResourceNotFoundException;
 import com.transaction.transactionservice.repositories.TransactionRepository;
 import com.transaction.transactionservice.service.TransactionService;
 
@@ -31,6 +32,17 @@ public class TransactionServiceImpl implements TransactionService {
 		TransactionKafka kafkaMessage = new TransactionKafka(saved.getId(), saved.getAmount(),saved.getCategory(), saved.getNote(), saved.getUserEmail());
 		kafkaTemplate.send("transactions", kafkaMessage);
 		return saved;
+	}
+
+	@Override
+	public String updateCategory(Long id, String newCategory) {
+		 Transactions transaction = transactionRepository.findById(id)
+	                .orElseThrow(() -> new ResourceNotFoundException("Transaction not found"));
+
+	        transaction.setCategory(newCategory);
+	        transactionRepository.save(transaction);
+
+	        return transaction.getCategory();
 	}
 
 }
