@@ -1,5 +1,7 @@
 package com.transaction.transactionservice.serviceimpl;
 
+import java.util.List;
+
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
@@ -43,6 +45,11 @@ public class TransactionServiceImpl implements TransactionService {
 	        transactionRepository.save(transaction);
 
 	        return transaction.getCategory();
+	}
+
+	@Override
+	public List<Transactions> getTransactionsByUserAndMonth(String userEmail, int month, int year) {
+		return transactionRepository.findByUserEmailAndMonthAndYear(userEmail, month, year);
 	}
 
 }
