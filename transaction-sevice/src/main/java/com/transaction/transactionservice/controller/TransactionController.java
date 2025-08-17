@@ -56,4 +56,25 @@ public class TransactionController {
 		List<Transactions> transactions = transactionService.getTransactionsByUserAndMonth(userEmail, month, year);
 		return ResponseEntity.ok(transactions);
 	}
+	
+	@GetMapping("/total-income")
+    public ResponseEntity<Double> getTotalIncome(
+            @RequestParam String userEmail,
+            @RequestParam int month,
+            @RequestParam int year) {
+
+        Double totalIncome = transactionService.calculateTotalIncome(userEmail, month, year);
+        return ResponseEntity.ok(totalIncome);
+    }
+
+    // Endpoint to get total expenses
+    @GetMapping("/total-expenses")
+    public ResponseEntity<Double> getTotalExpenses(
+            @RequestParam String userEmail,
+            @RequestParam int month,
+            @RequestParam int year) {
+
+        Double totalExpenses = transactionService.calculateTotalExpenses(userEmail, month, year);
+        return ResponseEntity.ok(totalExpenses);
+    }
 }

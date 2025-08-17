@@ -16,7 +16,7 @@ public class SecurityConfig {
             .csrf(csrf -> csrf.disable())
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers("/api/v1/user/**").permitAll() // register/login are public
-                .requestMatchers("/api/v1/saving-goal/**").authenticated() // saving goals need JWT
+                .requestMatchers("/api/analytics/goal-progress/**").authenticated() // saving goals need JWT
                 .anyRequest().authenticated()
             )
             .oauth2ResourceServer(oauth2 -> oauth2.jwt(Customizer.withDefaults())); // validate JWT

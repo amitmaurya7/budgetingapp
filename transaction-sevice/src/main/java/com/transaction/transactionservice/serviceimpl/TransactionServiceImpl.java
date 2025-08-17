@@ -52,4 +52,20 @@ public class TransactionServiceImpl implements TransactionService {
 		return transactionRepository.findByUserEmailAndMonthAndYear(userEmail, month, year);
 	}
 
+	@Override
+	public double calculateTotalIncome(String userEmail, int month, int year) {
+		 return transactionRepository.findByUserEmailAndCategoryAndMonthAndYear(userEmail, "INCOME", month, year )
+	                .stream()
+	                .mapToDouble(Transactions::getAmount)
+	                .sum();
+	}
+
+	@Override
+	public double calculateTotalExpenses(String userEmail, int month, int year) {
+		 return transactionRepository.findByUserEmailAndCategoryAndMonthAndYear(userEmail,"EXPENSE", month, year)
+	                .stream()
+	                .mapToDouble(Transactions::getAmount)
+	                .sum();
+	}
+
 }

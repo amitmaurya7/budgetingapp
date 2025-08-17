@@ -12,8 +12,8 @@ import com.budgetingapp.userservice.repositories.SavingGoalRepository;
 import com.budgetingapp.userservice.service.SavingGoalService;
 
 @Service
-public class SavingGoalServiceImpl implements SavingGoalService{
-	
+public class SavingGoalServiceImpl implements SavingGoalService {
+
 	@Autowired
 	private SavingGoalRepository savingGoalRepository;
 
@@ -30,8 +30,16 @@ public class SavingGoalServiceImpl implements SavingGoalService{
 
 	@Override
 	public List<SavingGoal> getGoal(String email) {
-		List<SavingGoal> savingGoals = savingGoalRepository.findByUserEmail(email).orElseThrow(()-> new UserNotExistException("user with email id: "+email+" is not present"));
+		List<SavingGoal> savingGoals = savingGoalRepository.findByUserEmail(email)
+				.orElseThrow(() -> new UserNotExistException("user with email id: " + email + " is not present"));
 		return savingGoals;
+	}
+
+	@Override
+	public SavingGoal getSavingGoal(String email, String goalName) {
+		return savingGoalRepository.findByUserEmailAndGoalName(email, goalName)
+				.orElseThrow(() -> new UserNotExistException(
+						"Saving goal with name '" + goalName + "' not found for user " + email));
 	}
 
 }

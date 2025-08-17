@@ -1,4 +1,4 @@
-package com.budgetingapp.userservice.config;
+package com.analyticservice.config;
 
 import java.util.Base64;
 
@@ -10,9 +10,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.oauth2.jwt.JwtDecoder;
 import org.springframework.security.oauth2.jwt.NimbusJwtDecoder;
 
+
 @Configuration
 public class JwtConfig {
-
 
 	 @Bean
 	 public JwtDecoder jwtDecoder(@Value("${spring.security.oauth2.resourceserver.jwt.secret-key}") String secret) {

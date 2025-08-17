@@ -16,4 +16,10 @@ public interface TransactionRepository extends JpaRepository<Transactions, Long>
 			+ "AND FUNCTION('MONTH', t.localDateTime) = :month " + "AND FUNCTION('YEAR', t.localDateTime) = :year")
 	List<Transactions> findByUserEmailAndMonthAndYear(@Param("userEmail") String userEmail, @Param("month") int month,
 			@Param("year") int year);
+
+	@Query("SELECT t FROM Transactions t " + "WHERE t.userEmail = :userEmail " + "AND t.category = :category "
+			+ "AND FUNCTION('MONTH', t.localDateTime) = :month " + "AND FUNCTION('YEAR', t.localDateTime) = :year")
+	List<Transactions> findByUserEmailAndCategoryAndMonthAndYear(@Param("userEmail") String userEmail,
+			@Param("category") String category, @Param("month") int month, @Param("year") int year);
+
 }

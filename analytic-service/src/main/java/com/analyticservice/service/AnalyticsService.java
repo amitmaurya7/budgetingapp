@@ -16,6 +16,8 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import com.analyticservice.dto.GoalProgressDto;
+import com.analyticservice.dto.SavingGoal;
 import com.analyticservice.dto.TransactionKafka;
 import com.analyticservice.dto.Transactions;
 import com.analyticservice.util.JwtTokenProvider;
@@ -100,5 +102,50 @@ public class AnalyticsService {
 
 	        return result;
 	    }
+	 
+	 public GoalProgressDto trackGoalProgress(String userEmail, int month, int year, String goalName, String token) {
+		 HttpHeaders headers = new HttpHeaders();
+		 headers.setBearerAuth(token);
+		 HttpEntity<Void> entity = new HttpEntity<>(headers);
+		 
+		 // total income of the user
+		 ResponseEntity<Double> incomeResponse = restTemplate.exchange("http://localhost:8083/api/transaction/total-income?userEmail=" + userEmail +"&month=" + month + "&year=" + year, HttpMethod.GET, entity, Double.class);
+		 
+		 Double totalIncome = incomeResponse.getBody();
+		 if(totalIncome == null)
+			 totalIncome = 0.0;
+		 //total expenses of the user
+		 ResponseEntity<Double> expensesResponse = restTemplate.exchange("http://localhost:8083/api/transaction/total-expenses?userEmail="+userEmail+"&month="+month+"&year="+year,HttpMethod.GET, entity, Double.class);
+		 Double totalExpenses = expensesResponse.getBody();
+		 if(totalExpenses == null)
+			 totalExpenses = 0.0;
+		 //actual saving 
+		 double actualSaving = totalIncome - totalExpenses;
+		 //saving goal
+		 ResponseEntity<SavingGoal> savingResponse = restTemplate.exchange(
+				    "http://localhost:8081/api/v1/saving-goal/goal?goalName=" + goalName,
+				    HttpMethod.GET,
+				    entity,
+				    SavingGoal.class
+				);
+
+				SavingGoal savingGoal = savingResponse.getBody();
+		 double savingGoalAmount = 0.0;
+		 if (savingGoal != null) {
+		     savingGoalAmount = ((SavingGoal) savingGoal).getTargetAmount();
+		 }
+		 
+		 double progressPercentage=0.0;
+		 if(savingGoalAmount>0) {
+			 progressPercentage = (actualSaving/savingGoalAmount)*100.0;
+		 }
+		 boolean goalAchieved = false;
+		 if(progressPercentage>=100.0)
+			 goalAchieved = true;
+		 return new GoalProgressDto(savingGoalAmount, actualSaving,progressPercentage,goalAchieved);
+	 }
+	 
+	 
+	 
 
 }

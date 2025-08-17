@@ -9,4 +9,5 @@ public interface SavingGoalService {
 
 	public SavingGoal createGoal(SavingGoalDto savingGoalDto);
 	public List<SavingGoal> getGoal(String email);
+	public SavingGoal getSavingGoal(String email, String goalName);
 }

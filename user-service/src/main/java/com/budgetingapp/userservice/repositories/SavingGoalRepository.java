@@ -12,4 +12,5 @@ import com.budgetingapp.userservice.entities.SavingGoal;
 public interface SavingGoalRepository extends JpaRepository<SavingGoal, Long> {
 
 	Optional<List<SavingGoal>>findByUserEmail(String email);
+	Optional<SavingGoal> findByUserEmailAndGoalName(String userEmail, String goalName);
 }
